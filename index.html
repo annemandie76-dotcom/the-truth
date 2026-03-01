@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>THE TRUTH</title>
+  <link rel="stylesheet" href="styles/styles.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+CZ:wght@100..400&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner container">
+      <div class="brand">
+        <div class="brand-top">
+          <span class="brand-left">THE</span>
+          <img src="images/logo.png.png" alt="JODAMS logo" class="brand-logo">
+          <span class="brand-right">TRUTH</span>
+        </div>
+        <div class="brand-sub">DAILY</div>
+      </div>
+      <nav class="main-nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="stories.html" class="nav-link">stories</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <button class="mobile-menu-button" aria-label="toggle menu">☰</button>
+    </div>
+  </header>
+  <section class="hero">
+    <div class="hero-inner container">
+      <div class="hero-left">
+        <h1 class="hero title">Trusted political, economic and sports news — fast, clear,independent.</h1>
+        <p><a class="cta" href="stories.html">Veiw All Stories</a></p>
+      </div>
+      <div class="hero-media">
+         
+      </div>
+    </div>
+  </section>
+  <main class="container">
+    <section class="news-lists">
+      <a href="story1.html" class="story-link">
+      <article class="news-item">
+        <h2 class="news-title">Niger Newgate University sets to graduates first set of students
+@ 14 first class, 81 second class among the graduating students</h2>
+        <div class="thumb-row">
+          <img src="images/thumb1.jpg.jpeg" alt="" class="thumb">
+        </div>
+        <div class="source-line">
+          <span class="source">The Admin</span>
+        </div>
+      </article>
+      </a>
+      <hr class="divider">
+      <a href="story2.html" class="story-link">
+      <article class="news-item">
+       <h2 class="news-title">Niger school abduction: Assembly read riot act, threatens to shutdown legislative business over insecurity
+       @ Calls for immediate rescue of abducted students
+       @ Urged government to deploy troops to bandits routes in the state
+</h2>
+       <div class="thumb-row">
+        <img src="images/thumb2.jpg.jpeg" alt="" class="thumb">
+       </div>
+       <div>
+        <span class="source">The Admin</span>
+       </div>
+      </article>
+      </a>
+      <hr class="divider">
+
+      
+    </section>
+    <section class="advert-box">
+  <h3>Advertise With Us</h3>
+  <p>Want to promote your business, event, or brand?</p>
+  <p><strong>Contact us today to place your advert on THE TRUTH Daily.</strong></p>
+  <a href="mailto:theguardianmanminna@Yahoo.co.uk" class="advert-btn">Place Your Advert</a>
+   <div class="advert-contact">
+    <p><i class='bx bx-phone-call'></i> Phone: <a href="tel:+2348035918003">+234 8035918003</a></p>
+
+    <p><i class='bx bxl-whatsapp'></i> WhatsApp: 
+      <a href="https://wa.me/2348028722991" target="_blank">Chat on WhatsApp</a>
+    </p>
+  </div>
+</section>
+
+    
+    <section id="about" class="about">
+      <h3>About THE TRUTH</h3>
+      <P>THE TRUTH Daily brings timely political, economic news and sports with clear analysis and credible reporting.</P>
+    </section>
+
+    <section id="contact" class="contact">
+  <h2>Contact Info</h2>
+  <p>Email: 
+    <a href="mailto:theguardianmanminna@Yahoo.co.uk">
+      <i class='bx bx-envelope'></i> theguardianmanminna@Yahoo.co.uk
+    </a>
+  </p>
+
+  <p>Follow: 
+    <a href="https://www.facebook.com/share/1Brahh51hg/" target="_blank">
+      <i class='bx bxl-facebook-circle'></i> Facebook
+    </a> · 
+
+    <a href="https://twitter.com/Johnadams954322?t=X3KoYmE9PEOkl1ek26NDAw&s=09" target="_blank">
+      <i class='bx bxl-twitter'></i> X
+    </a> · 
+
+    <a href="https://www.instagram.com/jodamsports2007?igsh=dTMwbmN2b2psZng2" target="_blank">
+      <i class='bx bxl-instagram-alt'></i> Instagram
+    </a>
+  </p>
+</section>
+
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 THE TRUTH Daily</p>
+    </div>
+  </footer>
+  <script>
+    const btn = document.querySelector('.mobile-menu-button');
+    const nav = document.querySelector('.main-nav');
+    btn?.addEventListener('click',()=> {
+      nav.classList.toggle('nav-open');
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stories . THE TRUTH Daily</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+
+    <header class="site-header">
+    <div class="header-inner container">
+      <div class="brand">
+        <div class="brand-top">
+          <span class="brand-left">THE</span>
+          <img src="images/logo.png.png" alt="JODAMS logo" class="brand-logo">
+          <span class="brand-right">TRUTH</span>
+        </div>
+        <div class="brand-sub">DAILY</div>
+      </div>
+      <nav class="main-nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="stories.html" class="nav-link active">Stories</a>
+        <a href="index.html#about" class="nav-link">About</a>
+        <a href="index.html#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <button class="mobile-menu-button" aria-label="Toggle menu">☰</button>
+    </div>
+  </header>
+     <main class="container stories-page">
+    <header class="stories-intro">
+      <h1>Stories</h1>
+      <p>All published articles. Click any headline to open the full story.</p>
+    </header>
+
+    <section class="news-lists">
+      <a href="story1.html" class="story-link">
+        <article class="news-item">
+        <h2 class="news-title">Niger Newgate University sets to graduates first set of students
+        @ 14 first class, 81 second class among the graduating students
+       </h2>
+        <div class="thumb-row">
+          <img src="images/thumb1.jpg.jpeg" alt="" class="thumb">
+        </div>
+        <div class="source-line"><span class="source">John Adams Minna</span></div>
+      </article>
+      </a>
+      <hr class="divider">
+       <a href="story2.html" class="story-link">
+      <article class="news-item">
+        <h2 class="news-title">Niger school abduction: Assembly read riot act, threatens to shutdown legislative business over insecurity</h2>
+        <div class="thumb-row">
+          <img src="images/thumb2.jpg.jpeg" alt="" class="thumb">
+        </div>
+        <div class="source-line"><span class="source">John Adams Minna</span></div>
+      </article>
+       </a>
+    </section>
+     </main>
+     <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 THE TRUTH Daily</p>
+    </div>
+  </footer>
+     
+  <script>
+    const btn = document.querySelector('.mobile-menu-button');
+    const nav = document.querySelector('.main-nav');
+    btn?.addEventListener('click', ()=> {
+      nav.classList.toggle('nav-open');
+    });
+  </script>
+</body>
+</html>
